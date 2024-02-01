@@ -39,12 +39,54 @@ h1 {
 }
 
 h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: rgb(3, 6, 55);
+    background: linear-gradient(45deg, rgb(194, 18, 146) 0%, rgb(255, 167, 50) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 img.about {
     opacity: 0.5;
+}
+
+.blog-posts {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.blog-posts a {
+    text-decoration: none;
+}
+
+.blog-posts a p {
+    padding: 20px;
+    color: #EAE8FF;
+    font-size: 30px;
+}
+
+.blog-posts a p {
+    padding: 20px;
+    color: #EAE8FF;
+    font-size: 1.2em;
+}
+
+.grow-on-hover {
+    transition: transform .2s;
+}
+
+.grow-on-hover:hover {
+    transform: scale(1.02);
+}
+
+.post-header {
+    margin: 10px auto 10px auto;
+}
+
+.post-body {
+    margin: auto 300px auto 300px;
+    line-height: 2;
+    font-size: 20px;
 }
